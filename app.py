@@ -7,10 +7,10 @@ roll = st.text_input("Enter Roll Number")
 
 st.subheader("Enter Marks (Out of 100)")
 
-subject1 = st.number_input("Maths Marks", min_value=0, max_value=100)
-subject2 = st.number_input("Science Marks", min_value=0, max_value=100)
-subject3 = st.number_input("English Marks", min_value=0, max_value=100)
-subject4 = st.number_input("Computer Marks", min_value=0, max_value=100)
+subject1 = st.number_input("SE Marks", min_value=0, max_value=100)
+subject2 = st.number_input("CN Marks", min_value=0, max_value=100)
+subject3 = st.number_input("WAD Marks", min_value=0, max_value=100)
+subject4 = st.number_input("OB Marks", min_value=0, max_value=100)
 
 if st.button("Calculate Result"):
     total = subject1 + subject2 + subject3 + subject4
